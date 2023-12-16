@@ -1,0 +1,83 @@
+mu: 25000
+num_children: 100000
+mutation rate: 0.075
+parent selection: k_tournament_with_replacement
+parent selection kwargs: {'k': 16}
+survival selection: k_tournament_without_replacement
+survival selection kwargs: {'k': 16}
+recombination kwargs: {'method': 'one-point'}
+mutation kwargs: {'bonus': False, 'bounds': ((0, 50), (0, 15))}
+Initial population size: 25000
+Evaluations: 25000
+Local best: 19
+Local mean: -49.74472
+Number of children: 100000
+Number of mutations: 7554
+Pre-survival population size: 125000
+Post-survival population size: 25000
+Evaluations: 125000
+Local best: 23
+Local mean: -46.5016
+Number of children: 100000
+Number of mutations: 7378
+Pre-survival population size: 125000
+Post-survival population size: 25000
+Evaluations: 225000
+Local best: 26
+Local mean: -12.0146
+Number of children: 100000
+Number of mutations: 7495
+Pre-survival population size: 125000
+Post-survival population size: 25000
+Evaluations: 325000
+Local best: 30
+Local mean: 13.32092
+Number of children: 100000
+Number of mutations: 7498
+Pre-survival population size: 125000
+Post-survival population size: 25000
+Evaluations: 425000
+Local best: 32
+Local mean: 18.893
+Number of children: 100000
+Number of mutations: 7537
+Pre-survival population size: 125000
+Post-survival population size: 25000
+Evaluations: 525000
+Local best: 33
+Local mean: 22.83408
+Number of children: 100000
+Number of mutations: 7369
+Pre-survival population size: 125000
+Post-survival population size: 25000
+Evaluations: 625000
+Local best: 34
+Local mean: 25.99744
+Number of children: 100000
+Number of mutations: 7325
+Pre-survival population size: 125000
+Post-survival population size: 25000
+Evaluations: 725000
+Local best: 35
+Local mean: 28.87324
+Number of children: 100000
+Number of mutations: 7493
+Pre-survival population size: 125000
+Post-survival population size: 25000
+Evaluations: 825000
+Local best: 38
+Local mean: 31.67716
+Number of children: 100000
+Number of mutations: 7409
+Pre-survival population size: 125000
+Post-survival population size: 25000
+Evaluations: 925000
+Local best: 38
+Local mean: 33.89596
+Number of children: 100000
+Number of mutations: 7461
+Pre-survival population size: 125000
+Post-survival population size: 25000
+Evaluations: 1025000
+Local best: 38
+Local mean: 35.32388

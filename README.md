@@ -1,0 +1,8 @@
+# Evolutionary Computing
+This repository contains the two assignment series I completed in my Evolutionary Computing class at Auburn.
+
+## Assignment Series 1: The Cutting Stock Problem
+In assignment series 1 we used evolutionary algorithms to programmatically explore the solution space for an NP-hard problem, the Cutting Stock problem, which is reducible to the knapsack problem. Starting with random search and ending with a Multi-Objective Evolutionary Algorithm (MOEA), this program will generate tens of thousands of valid solutions that employ recombination (child generation), mutation, and survival mechanisms that incentivize higher performing solutions and discourage poor performing solutions.
+
+## Assignment Series 2: Genetic Pac-Man
+In Assignment series 2 we developed node-based Pac-Man controllers that compete against each other by completing a round of Pac-Man. The Pac-Man controller is evaluated based on survival time and pills/fruit eaten. After each round of evaluations the Pac-Man controllers undergo recombination, mutation, and survival mechanisms that incentivize higher performing solutions and discourage poor performing solutions. This assignment series started with developing the random search techinque and ended with Competitive Coevolution. The competitive coevolution experiment introduced an evolutionary ghost controller which would then compete against the Pac-Man controller. This technique ensured the two 'species' evolved side-by-side. This was probably the most interesting project I have ever completed in my college career. The results of this experiment was a display of absolute dominance by my ghost controllers.
